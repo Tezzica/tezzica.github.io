@@ -3,27 +3,58 @@ body{
     margin: 0;
 
 }
-
-li{
-    list-style: none;
-    float:left;
-    margin: 10px;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 0.01em;
-}
-
 a{
     text-decoration: none;
 }
+nav li{
+    list-style: none;
+    float:left;
+    padding-top: 10px;
+    margin: 6px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    
+}
+nav ul{
+    float: right;
+    margin-right: 10px;
+}
 
+nav ul a{
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav ul a:hover{
+    text-decoration: none;
+    background: teal;
+}
+
+#site-header{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-style: italic;
+    float: left;
+    margin-left: 30px;
+}
+
+.tess{
+    clear: both;
+    display: block;
+    padding-top: 20%;
+    padding-left: 10%
+    
+}
 footer{
-    bottom:0;
+    bottom:5px;
     position: absolute;
     text-align: center;
     width: 100%;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 600;
     letter-spacing: 0.08em;
     font-size: .7em;
+    font-family: 'Assistant';
 }
